@@ -1,0 +1,15 @@
+interface:
+  display_name: "PDF Image Converter"
+  short_description: "Converts PDF pages into PNG, JPEG, or JPG image files."
+  default_prompt: "Convert the provided PDF file into PNG or JPEG images."
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools: []
+  files:
+    - SKILL.md
+    - README.md
+    - references/style-guide.md
+    - scripts/pdf_to_images.py
